@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Utilities
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
@@ -523,6 +523,7 @@ document.querySelector('.contact-item .fas.fa-map-marker-alt').parentElement.add
         if(e.key === "Escape") closePopup();
     });
 })();
+
 =======
 // Utilities
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -1048,4 +1049,3 @@ document.querySelector('.contact-item .fas.fa-map-marker-alt').parentElement.add
         if(e.key === "Escape") closePopup();
     });
 })();
->>>>>>> 627e1a9 (first commit)
